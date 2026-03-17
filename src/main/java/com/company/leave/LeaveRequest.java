@@ -6,7 +6,7 @@ public class LeaveRequest {
     private int employeeId;
     private int numberOfDays;
     private LeaveStatus status;
-
+    
     public LeaveRequest(int leaveId, int employeeId, int numberOfDays) {
         this.leaveId = leaveId;
         this.employeeId = employeeId;

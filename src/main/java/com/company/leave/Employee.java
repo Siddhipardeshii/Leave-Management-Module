@@ -5,7 +5,7 @@ public class Employee {
     private int employeeId;
     private String name;
     private int leaveBalance;
-
+//constructor 
     public Employee(int employeeId, String name, int leaveBalance) {
         this.employeeId = employeeId;
         this.name = name;
