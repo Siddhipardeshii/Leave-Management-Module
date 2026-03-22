@@ -1,7 +1,7 @@
 package com.company.leave;
 
 public interface LeaveManagement {
-
+//
     LeaveRequest applyLeave(int leaveId, int empId, int days);
 
     void approveLeave(int leaveId);

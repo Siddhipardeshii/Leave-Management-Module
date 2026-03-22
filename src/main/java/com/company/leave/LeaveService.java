@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class LeaveService implements LeaveManagement {
-
+    
     private Map<Integer, Employee> employees = new HashMap<>();
     private Map<Integer, LeaveRequest> leaveRequests = new HashMap<>();
 
